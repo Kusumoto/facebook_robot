@@ -55,7 +55,7 @@ if ($user) {
 }
 
 // This call will always work since we are fetching public data.
-$naitik = $facebook->api('/naitik');
+$kusumoto = $facebook->api('/Azerdar.T.Kusumoto');
 
 ?>
 <!doctype html>
@@ -162,7 +162,7 @@ $naitik = $facebook->api('/naitik');
     <?php endif ?>
 
     <h3>Public profile of Naitik</h3>
-    <img src="https://graph.facebook.com/naitik/picture">
-    <?php echo $naitik['name']; ?>
+    <img src="https://graph.facebook.com/Azerdar.T.Kusumoto/picture">
+    <?php echo $kusumoto['name']; ?>
   </body>
 </html>
