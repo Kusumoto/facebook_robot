@@ -49,7 +49,7 @@ $g->line_hollow( 2, 4, '0x80a033', 'การใช้งาน', 10 );
 $g->set_x_labels( array( '7 January 2013','8 January 2013','9 January 2013','10 January 2013','11 January 2013','12 January 2013','13 January 2013','14 January 2013','15 January 2013','16 January 2013','17 January 2013','18 January 2013' ) );
 $g->set_x_label_style( 10, '0x000000', 0, 2 );
 
-$g->set_y_max( 1000 );
+$g->set_y_max( 1500 );
 $g->y_label_steps( 4 );
 $g->set_y_legend( 'ปริมาณการใช้', 12, '#736AFF' );
 echo $g->render();

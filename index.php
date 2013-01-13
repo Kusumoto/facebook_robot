@@ -14,7 +14,7 @@
 
 <b><font size="5">BOT FACEBOOK เก็บข้อมูลตั้งแต่วันที่ 7 มกราคม 2556 เวลา 10:37 PM</font></b>
 <hr>
-Micro Faceboook Robot By <a href="http://fb.me/Azerdar.T.Kusumoto">Kusumoto</a> (<a href="http://twitter.com/Kusumoto_ton">@Kusumoto_ton</a>)
+Micro Faceboook Robot By <a href="http://fb.me/Azerdar.T.Kusumoto">Kusumoto</a> (<a href="http://twitter.com/Kusumoto_ton">@Kusumoto_ton</a>) <a href="http://tools.kusumoto.co/ticker/report/">[ ดูรายงานการสรุปประจำสัปดาห์ ]</a>
 <hr>
 <?php 
 $today = date("F j, Y, g:i a",strtotime("+12 hour")); ?>
