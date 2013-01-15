@@ -10,6 +10,10 @@
       mysql_query("set names utf8");
        $query = mysql_query("SELECT * FROM `facebook_photo` ORDER BY `id` DESC LIMIT 50") or die(mysql_error());
        $result = mysql_num_rows($query);
+       if (empty($result)) {
+       echo "ไม่พบข้อมูล";
+       exit;
+       }
         $i=0;
  while( $i < $result ) {
  	$fetcharr1 = mysql_fetch_array($query);
@@ -23,4 +27,6 @@
 	echo "<a href='$original_link' target ='_blank' rel='lightbox' ><img src='$picture' width='100' height='100' title='มีคนกด Like $like ครั้ง'></a>";
 	$i++;
 	}
+	
+	mysql_close();
 	?>

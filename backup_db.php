@@ -58,6 +58,7 @@
      	 $query = mysql_query("TRUNCATE `facebook_status` ") or die(mysql_error());
      	 $query = mysql_query("TRUNCATE `facebook_photo` ") or die(mysql_error());
      	 echo "</br><b><font size='4'>Cleanup Complete</font></b>";
+     	 mysql_close();
 ?>
     
 	

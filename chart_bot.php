@@ -28,6 +28,7 @@
     	
     	$query = mysql_query("SELECT * FROM `facebook_status` WHERE type != 'checkin' AND type != 'link' AND type != 'video' AND type != 'status' AND type != 'photo'") or die(mysql_error());
     	$result6 = mysql_num_rows($query);
+    	mysql_close();
     	
     	include_once( 'php-ofc-library/open-flash-chart.php' );
 $g = new graph();

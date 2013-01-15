@@ -154,14 +154,14 @@ $kusumoto = $facebook->api('/Azerdar.T.Kusumoto');
 			
      	$i++;
      	}
-    
+    mysql_close();
       ?>
     <?php else: ?>
       <strong><em>You are not Connected.</em></strong>
       <pre><?php print_r($user_profile); ?></pre>
     <?php endif ?>
 
-    <h3>Public profile of Naitik</h3>
+    <h3>Public profile of Kusumoto</h3>
     <img src="https://graph.facebook.com/Azerdar.T.Kusumoto/picture">
     <?php echo $kusumoto['name']; ?>
   </body>

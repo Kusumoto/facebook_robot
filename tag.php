@@ -25,7 +25,7 @@ if (is_array($myCloud)) {
         echo ' <a href="showresult.php?result='.urlencode($value['tag']).'" target="_blank">'.'<font size=3.'.($value['range']).' color=black>'.$value['tag'].'</a></font>';
     }
 }
-
+mysql_close();
 	?>
 
 </div>

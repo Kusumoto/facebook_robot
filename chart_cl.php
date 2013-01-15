@@ -43,6 +43,8 @@ include 'php-ofc-library/open-flash-chart.php';
     	
     	$query = mysql_query("SELECT * FROM `facebook_status` WHERE application = 'Facebook for Every Phone'") or die(mysql_error());
     	$result12 = mysql_num_rows($query);
+    	
+    	mysql_close();
 /*    	
 $title = new title( 'PT and SPT Facebook Client Use' );
 

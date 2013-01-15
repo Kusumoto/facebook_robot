@@ -13,7 +13,7 @@
     	$query = mysql_query("SELECT story FROM `facebook_status` WHERE story != ''") or die(mysql_error());
     	$result2 = mysql_num_rows($query);
     	
-    	
+    	mysql_close();
     	include_once( 'php-ofc-library/open-flash-chart.php' );
 $g = new graph();
 
